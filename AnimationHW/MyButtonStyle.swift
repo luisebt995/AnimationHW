@@ -11,6 +11,7 @@ import SwiftUI
 struct AnimationLB: ButtonStyle {
     @State private var recordBegin = false
     @State private var recording = false
+    @Binding var changeView:Bool
     
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
@@ -35,6 +36,9 @@ struct AnimationLB: ButtonStyle {
                         }
                         withAnimation(Animation.spring().repeatForever(autoreverses: true).delay(0.9)) {
                             self.recording.toggle()
+                        }
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                                changeView = true
                         }
                     }
             )

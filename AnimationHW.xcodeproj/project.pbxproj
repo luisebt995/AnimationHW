@@ -12,6 +12,7 @@
 		A02BAE5B2BC6C77800F4D4AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02BAE5A2BC6C77800F4D4AB /* Assets.xcassets */; };
 		A02BAE5E2BC6C77800F4D4AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02BAE5D2BC6C77800F4D4AB /* Preview Assets.xcassets */; };
 		A02BAE692BC6D04900F4D4AB /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02BAE682BC6D04900F4D4AB /* MyButtonStyle.swift */; };
+		A02BAE6B2BC6ED7600F4D4AB /* MoreAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02BAE6A2BC6ED7600F4D4AB /* MoreAnimations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		A02BAE5A2BC6C77800F4D4AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A02BAE5D2BC6C77800F4D4AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A02BAE682BC6D04900F4D4AB /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
+		A02BAE6A2BC6ED7600F4D4AB /* MoreAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreAnimations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				A02BAE5A2BC6C77800F4D4AB /* Assets.xcassets */,
 				A02BAE5C2BC6C77800F4D4AB /* Preview Content */,
 				A02BAE682BC6D04900F4D4AB /* MyButtonStyle.swift */,
+				A02BAE6A2BC6ED7600F4D4AB /* MoreAnimations.swift */,
 			);
 			path = AnimationHW;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A02BAE592BC6C77400F4D4AB /* ContentView.swift in Sources */,
+				A02BAE6B2BC6ED7600F4D4AB /* MoreAnimations.swift in Sources */,
 				A02BAE692BC6D04900F4D4AB /* MyButtonStyle.swift in Sources */,
 				A02BAE572BC6C77400F4D4AB /* AnimationHWApp.swift in Sources */,
 			);
